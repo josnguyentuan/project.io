@@ -7,13 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/homepage.css">
-    <link rel="stylesheet" href="css/imagehover.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Inconsolata:300,400,500,700|Unica+One:300,400,500,700">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <!-- logo brand icon-->
     <link rel="shortcut icon" href="./upload-image/logo.png" type="image/x-icon">
+    <script src="main.js"></script>
 </head>
 
 <body>
@@ -22,17 +21,17 @@
         <div class="container-fluid">
             <section>
                 <div class="nav-bar select">
-                    <div class="d-flex border">
-                        <div class="p-1 select-country border-right">
+                    <div class="d-flex border justify-content-center">
+                        <div class=" select-country border-right ">
                             <img src="upload-image/uk.png" alt="">
                         </div>
-                        <div class="p-1 select-currency border-right">
+                        <div class="select-currency border-right">
                             <i class="fas fa-dollar-sign"></i>
                         </div>
-                        <div class="ml-auto p-1 select-account">
+                        <div class="ml-auto select-account mr-1">
                             <a href="#" class="select-link">My account</a>
                         </div>
-                        <div class="p-1 select-wishlist border-left">
+                        <div class=" select-wishlist border-left ml-1">
                             <a href="#" class="select-link">Add to wishlist</a>
                         </div>
 
@@ -47,49 +46,50 @@
                         <img class="logo-img" src="upload-image/logo.png">
                     </a>
                     <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link ml-xl-3" data-toggle="dropdown">Home</a>
+                                <a class="nav-link ml-xl-3" href="index.html">Home</a>
 
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link ml-xl-3" data-toggle="dropdown">Shop</a>
+                                <a class="nav-link ml-xl-3" href="shop.html">Shop</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link ml-xl-3" data-toggle="dropdown">
-                                Emcomerce Page &nbsp <span><i class="fas fa-angle-down" style="opacity: .6;"></i></span>
-                            </a>
+                                    Emcomerce Page &nbsp <span><i class="fas fa-angle-down"
+                                            style="opacity: .6;"></i></span>
+                                </a>
                                 <div class="dropdown-menu ml-xl-3" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="#">WHISTLIST</a>
-                                    <a class="dropdown-item" href="#">CART</a>
-                                    <a class="dropdown-item" href="#">CHECKOUT</a>
+                                    <a class="dropdown-item" href="cart.html">CART</a>
+                                    <a class="dropdown-item" href="checkout.html">CHECKOUT</a>
                                     <a class="dropdown-item" href="#">ORDER RECEIVED</a>
                                     <a class="dropdown-item" href="#">ORDER TRACKING</a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link ml-xl-3" data-toggle="dropdown">
-                                Page &nbsp <span><i class="fas fa-angle-down" style="opacity: .6;"></i></span>
-                            </a>
+                                    Page &nbsp <span><i class="fas fa-angle-down" style="opacity: .6;"></i></span>
+                                </a>
                                 <div class="dropdown-menu ml-xl-3" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">LOGIN / REGISTER</a>
+                                    <a class="dropdown-item" href="register.html">LOGIN / REGISTER</a>
                                     <a class="dropdown-item" href="#">FAQ'S</a>
 
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link ml-xl-3">
-                                About
-                            </a>
+                                <a class="nav-link ml-xl-3" href="about.html">
+                                    About
+                                </a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link ml-xl-3">
-                                Contact
-                            </a>
+                                    Contact
+                                </a>
                             </li>
 
                         </ul>
@@ -128,11 +128,11 @@
                         <img class="d-block w-100" src="upload-image/slide/slide-towels.jpg" alt="Third slide">
                     </div>
                 </div>
-                <a class="carousel-view carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-controls carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span><i class="fas fa-chevron-left" style="color: black;"></i></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class=" carousel-view carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class=" carousel-controls carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                     <span><i class="fas fa-chevron-right" style="color: black;"></i></span>
                     <span class="sr-only">Next</span>
                 </a>
@@ -168,7 +168,7 @@
     <section class="section-service">
         <div class="container">
             <div class="row  mt-5 p-3">
-                <div class="col-md-4 col-lg-4 col-xl-4 border p-3  mt-3">
+                <div class="col-md-4 col-lg-4 col-xl-4 border p-3">
                     <div class="icon-service">
                         <i class="far fa-money-bill-alt fa-2x"></i>
                     </div>
@@ -181,7 +181,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4 col-xl-4 border p-3  mt-3">
+                <div class="col-md-4 col-lg-4 col-xl-4 border p-3">
                     <div class="icon-service">
                         <i class="fas fa-globe fa-2x"></i>
                     </div>
@@ -194,7 +194,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4 col-xl-4 border p-3  mt-3">
+                <div class="col-md-4 col-lg-4 col-xl-4 border p-3">
                     <div class="icon-service">
                         <i class="fas fa-plane fa-2x"></i>
                     </div>
@@ -216,194 +216,7 @@
     </section>
     <section class="section-product p-3">
         <div class="container">
-            <div class="row">
-                <div class="col-xl-4 col-md-6 pt-3 products">
-                    <div class="product-item">
-                        <figure class="imghvr-slide-down">
-                            <img src="upload-image/product-img/product-img-6.jpg" width="100%">
-                            <figcaption>
-                                <div class="product-icon">
-                                    <i class="fas fa-shopping-cart i-cart"></i>
-                                    <span class="icon-description add-to-cart">Add to cart</span>
-                                    <i class="fas fa-heart i-wishlist"></i>
-                                    <span class="icon-description add-to-wishlist">Add to wishlist</span>
-                                    <i class="fas fa-search i-search"></i>
-                                    <span class="icon-description search"> Search</span>
-
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <div class="product-body">
-                            <div class="product-name">
-                                <a href="#">
-                                    <h3>BAG DARK BEIGE</h3>
-                                </a>
-                            </div>
-                            <div class="product-rate">
-                                <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
-                            </div>
-                            <div class="product-price">
-                                <span>$15.00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 pt-3 products">
-                    <div class="product-item">
-                        <figure class="imghvr-slide-down">
-                            <img src="upload-image/product-img/product-img-3.jpg" width="100%">
-                            <figcaption>
-                                <div class="product-icon">
-                                    <i class="fas fa-shopping-cart i-cart"></i>
-                                    <span class="icon-description add-to-cart">Add to cart</span>
-                                    <i class="fas fa-heart i-wishlist"></i>
-                                    <span class="icon-description add-to-wishlist">Add to wishlist</span>
-                                    <i class="fas fa-search i-search"></i>
-                                    <span class="icon-description search"> Search</span>
-
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <div class="product-body">
-                            <div class="product-name">
-                                <a href="#">
-                                    <h3>SHOES MAROON</h3>
-                                </a>
-                            </div>
-                            <div class="product-rate">
-                                <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
-                            </div>
-                            <div class="product-price">
-                                <span>$80.99</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 pt-3 products">
-                    <div class="product-item">
-                        <figure class="imghvr-slide-down">
-                            <img src="upload-image/product-img/product-img-2.jpg" width="100%">
-                            <figcaption>
-                                <div class="product-icon">
-                                    <i class="fas fa-shopping-cart i-cart"></i>
-                                    <span class="icon-description add-to-cart">Add to cart</span>
-                                    <i class="fas fa-heart i-wishlist"></i>
-                                    <span class="icon-description add-to-wishlist">Add to wishlist</span>
-                                    <i class="fas fa-search i-search"></i>
-                                    <span class="icon-description search"> Search</span>
-
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <div class="product-body">
-                            <div class="product-name">
-                                <a href="#">
-                                    <h3>UNISEX CAP</h3>
-                                </a>
-                            </div>
-                            <div class="product-rate">
-                                <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
-                            </div>
-                            <div class="product-price">
-                                <span>$99.99</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 pt-3 products">
-                    <div class="product-item">
-                        <figure class="imghvr-slide-down">
-                            <img src="upload-image/product-img/product-img-1.jpg" width="100%">
-                            <figcaption>
-                                <div class="product-icon">
-                                    <i class="fas fa-shopping-cart i-cart"></i>
-                                    <span class="icon-description add-to-cart">Add to cart</span>
-                                    <i class="fas fa-heart i-wishlist"></i>
-                                    <span class="icon-description add-to-wishlist">Add to wishlist</span>
-                                    <i class="fas fa-search i-search"></i>
-                                    <span class="icon-description search"> Search</span>
-
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <div class="product-body">
-                            <div class="product-name">
-                                <a href="#">
-                                    <h3>HANDS WINTER</h3>
-                                </a>
-                            </div>
-                            <div class="product-rate">
-                                <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
-                            </div>
-                            <div class="product-price">
-                                <span>$15.00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 pt-3 products">
-                    <div class="product-item">
-                        <figure class="imghvr-slide-down">
-                            <img src="upload-image/product-img/product-img-10.jpg" width="100%">
-                            <figcaption>
-                                <div class="product-icon">
-                                    <i class="fas fa-shopping-cart i-cart"></i>
-                                    <span class="icon-description add-to-cart">Add to cart</span>
-                                    <i class="fas fa-heart i-wishlist"></i>
-                                    <span class="icon-description add-to-wishlist">Add to wishlist</span>
-                                    <i class="fas fa-search i-search"></i>
-                                    <span class="icon-description search"> Search</span>
-
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <div class="product-body">
-                            <div class="product-name">
-                                <a href="#">
-                                    <h3>PATTERNED SCARF</h3>
-                                </a>
-                            </div>
-                            <div class="product-rate">
-                                <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
-                            </div>
-                            <div class="product-price">
-                                <span>$39.99</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 pt-3 products">
-                    <div class="product-item">
-                        <figure class="imghvr-slide-down">
-                            <img src="upload-image/product-img/product-img-9.jpg" width="100%">
-                            <figcaption>
-                                <div class="product-icon">
-                                    <i class="fas fa-shopping-cart i-cart"></i>
-                                    <span class="icon-description add-to-cart">Add to cart</span>
-                                    <i class="fas fa-heart i-wishlist"></i>
-                                    <span class="icon-description add-to-wishlist">Add to wishlist</span>
-                                    <i class="fas fa-search i-search"></i>
-                                    <span class="icon-description search"> Search</span>
-
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <div class="product-body">
-                            <div class="product-name">
-                                <a href="#">
-                                    <h3>TWILL SILK SCARF</h3>
-                                </a>
-                            </div>
-                            <div class="product-rate">
-                                <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
-                            </div>
-                            <div class="product-price">
-                                <span>$49.99</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+            <div class="row" id="products">
             </div>
         </div>
     </section>
@@ -413,74 +226,71 @@
             <div class="insta-img">
                 <a href="#" class="insta-link">
                     <span>
-                    <img src="upload-image/insta/01.jpg"  width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/01.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/02.jpg" width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/02.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/03.jpg" width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/03.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/04.jpg" width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/04.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/05.jpg" width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/05.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/06.jpg" width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/06.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/07.jpg" width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/07.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/08.jpg" width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/08.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/09.jpg" width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/09.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/10.jpg" width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/10.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/11.jpg"  width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/11.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/12.jpg" width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/12.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/13.jpg" width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/13.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/14.jpg" width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/14.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/08.jpg" width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/08.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/06.jpg" width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/06.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/01.jpg" width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/01.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/03.jpg" width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/03.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/07.jpg" width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/07.jpg" width="100%" alt="">
+                    </span>
                     <span>
-                    <img src="upload-image/insta/05.jpg" width="100%" alt="">
-                </span>
+                        <img src="upload-image/insta/05.jpg" width="100%" alt="">
+                    </span>
                 </a>
             </div>
         </div>
-
     </section>
-
-
     <footer>
-        <div class="container-fluid bg-light">
+        <div class="bg-light py-5">
             <div class="container">
                 <div class="row p-5">
                     <div class="col-xl-3 col-md-3 col-lg-3 mt-1">
@@ -491,17 +301,14 @@
                         <h3>MY ACCOUNT</h3>
                         <div class="row footer-link">
                             <div class="col-6">
-
                                 <a href="#">My Account</a> <br>
                                 <a href="#">My Order</a> <br>
                                 <a href="#">My Wishlist</a> <br>
                                 <a href="#">My Profile</a> <br>
                                 <a href="#">My Address</a> <br>
                                 <a href="#">My Product</a>
-
                             </div>
                             <div class="col-6">
-
                                 <a href="#">About Us</a><br>
                                 <a href="#">Contact</a><br>
                                 <a href="#">Payment</a><br>
@@ -552,7 +359,8 @@
                     <div class="col-xl-3 col-md-3 col-lg-3 mt-1 input-footer">
                         <h3>JOIN OUR LETTER</h3>
                         <form>
-                            <input type="text" placeholder="Your Email..." class="bg-light"> <span class="send-btn"><i class="fas fa-arrow-right"></i></span>
+                            <input type="text" placeholder="Your Email..." class="bg-light"> <span class="send-btn"><i
+                                    class="fas fa-arrow-right"></i></span>
                         </form>
                         <div class="row p-1">
                             <span class="social-icon"><i class="fab fa-facebook-square "></i></span>

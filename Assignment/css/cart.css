@@ -1,0 +1,16 @@
+.btn--cart {
+  background-color: #9ed4d6;
+  border: none;
+  padding: 10px;
+}
+
+.input--coupon {
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
+
+.input--coupon:focus {
+  outline: none;
+}
+/*# sourceMappingURL=cart.css.map */

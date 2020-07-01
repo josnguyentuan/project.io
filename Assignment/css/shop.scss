@@ -1,0 +1,21 @@
+.filter {
+    &--btn {
+        background-color: #9ed4d6;
+        color: white;
+        ;
+    }
+}
+
+.show-more {
+    background-color: #9ed4d6;
+    color: white;
+    &:hover {
+        border: 2px solid rgb(139, 133, 102);
+        color: white;
+    }
+}
+
+.media-header img {
+    width: 100px !important;
+    height: 100px;
+}

@@ -1,0 +1,128 @@
+.carousel-view span i {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.icon-service {
+    text-align: center;
+}
+
+.title-product {
+    text-align: center;
+    h3 {
+        font-weight: bold;
+    }
+}
+
+.section-instagram {
+    .insta-title {
+        position: absolute;
+        z-index: 3;
+        font-size: 1.9em;
+        margin-top: 100px;
+        font-weight: 900;
+        margin-left: 20%;
+    }
+    span {
+        width: 10%;
+        float: left;
+        img {
+            height: 120px;
+        }
+    }
+    .insta-img span {
+        opacity: .5;
+         :hover {
+            opacity: 1;
+        }
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .icon-service {
+        width: 30%;
+        float: left;
+        text-align: center;
+    }
+    .service-description {
+        width: 70%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .icon-service {
+        width: 30%;
+        float: left;
+    }
+    .service-description {
+        width: 70%;
+        float: left;
+    }
+    .section-instagram .container span {
+        width: 20%;
+    }
+    .insta-title {
+        position: absolute;
+        z-index: 3;
+        font-size: 1.9em;
+        margin-top: 220px !important;
+        font-weight: 900;
+        margin-left: 20%;
+    }
+}
+
+footer {
+    .input-footer {
+        input {
+            width: 100%;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+             :focus {
+                outline: none;
+            }
+        }
+        .send-btn {
+            position: absolute;
+            top: 0;
+            margin-top: 40px;
+            margin-right: 20px;
+            right: 0;
+        }
+    }
+    .footer-link a {
+        color: black;
+        text-decoration: none;
+    }
+    .social-icon {
+        margin-top: 20px !important;
+        opacity: .8;
+        padding: 10px;
+    }
+}
+
+li {
+    list-style: none;
+    float: left;
+}
+
+.product-body {
+    margin-top: 20px;
+    .product-name {
+        a {
+            color: black;
+            font-size: 1.8em;
+            &:hover {
+                color: #9ed4d6;
+                text-decoration: none;
+            }
+        }
+    }
+    .product-price {
+        font-size: 1.5em;
+    }
+}
